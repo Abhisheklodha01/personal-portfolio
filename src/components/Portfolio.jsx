@@ -5,6 +5,8 @@ import hookProject from "../assets/portfolio/hooks-project.png";
 import usabilityHub from "../assets/portfolio/usabilityhub-clone.png";
 import videoHub from "../assets/portfolio/videoHub.png";
 import youtubeProject from "../assets/portfolio/youtube-clone.png";
+import musicSchoolProject from "../assets/portfolio/musicSchool.png";
+import mistryMessagesProject from "../assets/portfolio/mistryMessages.png";
 
 
 const Portfolio = () => {
@@ -20,34 +22,52 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: musicSchoolProject,
+      name:'Music School',
+      to:'https://musicschool-xi.vercel.app',
+      toGithub: 'https://github.com/Abhisheklodha01/NextJSwithAceternity'
+      
+      
+    },
+    {
+      id: 3,
+      src: mistryMessagesProject,
+      name:'Mistry Messages',
+      to:'https://mistrymessages-z8e9.vercel.app',
+      toGithub: 'https://github.com/Abhisheklodha01/mistrymessages'
+      
+      
+    },
+    {
+      id: 4,
       src: youtubeProject,
-      name:'Youtube clone',
+      name:'Youtube ui clone',
       to:'https://youtubeclonebyabhi.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/youtube-clone'
     },
     {
-      id: 3,
+      id: 5,
       src: cryptoProject,
       name:'Crypto Currency',
       to:'https://abhicryptocurrency.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/react-crypto-app'
     },
     {
-      id: 4,
+      id: 6,
       src: usabilityHub,
       name:'clone of usaabilityHub',
       to:'https://usabilityhubclonebyabhi.netlify.app',
       toGithub:'#'
     },
     {
-      id: 5,
+      id: 7,
       src: videoHub,
       name:'Video Hub',
       to:'https://abhilodha01videohub.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/react-video-hub'
     },
     {
-      id: 6,
+      id: 8,
       src: hookProject,
       name:'React Project',
       to:'https://abhisheklodha01.netlify.app',

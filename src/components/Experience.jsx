@@ -6,6 +6,7 @@ import GitHub from "../assets/github.png";
 import JavaScript from "../assets/javascript.png";
 import node from "../assets/node.png";
 import reactImage from "../assets/react.png";
+import nextImage from "../assets/nextjs.png";
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
 
@@ -31,36 +32,42 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: nextImage,
+      title: "Next JS",
+      style: "shadow-white",
+    },
+    {
+      id: 5,
       src: node,
       title: "Node JS",
       style: "shadow-green-500",
     },
     {
-      id: 5,
+      id: 6,
       src: HTML,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
-      id: 6,
+      id: 7,
       src: CSS,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 7,
+      id: 8,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-sky-500",
     },
     {
-      id: 8,
+      id: 9,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 9,
+      id: 10,
       src: GitHub,
       title: "GitHub",
       style: "shadow-black",
@@ -70,7 +77,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-700 to-gray-900 w-full h-full"
+      className="bg-gradient-to-b from-gray-700 to-gray-900 w-full h-full pt-5 md:pt-40"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

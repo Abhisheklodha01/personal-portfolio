@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from 'react-scroll'
+import LogoImage from '../assets/Logo.jpg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,8 +36,8 @@ const Navbar = () => {
     >
       <div>
         <img
-          className="h-20 w-20 rounded-full bg-transparent"
-          src="https://i.pinimg.com/736x/02/91/32/029132c8642f5f5d61f61213426e38d1.jpg"
+          className="h-16 w-16 rounded-full bg-transparent"
+          src={LogoImage}
           alt="logo"
         />
       </div>

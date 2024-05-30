@@ -20,12 +20,13 @@ const Home = () => {
               <ReactTyped
                 strings={[
                   "Software Engineer",
-                  "Backend Doveloper",
-                  "Frontend Doveloper",
+                  "Full Stack Developer",
+                  "Backend Developer",
+                  "Frontend Developer",
                 ]}
                 typeSpeed={50}
                 backSpeed={50}
-               
+                loop
               ></ReactTyped>
               </span>
           </h2>
@@ -48,7 +49,7 @@ const Home = () => {
         </div>
         <div>
         <img
-            className="rounded-2xl mx-auto w-2/3 md:h-full"
+            className="rounded-2xl mx-auto w-2/3 md:hidden"
             src={HeroImage}
             alt="my profile"
           />

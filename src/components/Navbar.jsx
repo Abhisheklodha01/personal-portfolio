@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from 'react-scroll'
-import LogoImage from '../assets/Logo.jpg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -32,14 +31,10 @@ const Navbar = () => {
   return (
     <div
       className="flex justify-between items-center 
-                    w-full h-20 text-white  bg-[#0D4754] px-4"
+                    w-full h-20 text-white  bg-gray-600 px-4"
     >
-      <div>
-        <img
-          className="h-16 w-16 rounded-full bg-transparent"
-          src={LogoImage}
-          alt="logo"
-        />
+      <div >
+        <h1 className="text-white text-2xl border-2 border-gray-800 bg-gray-800 p-2 rounded-3xl">ABHI</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (

@@ -7,6 +7,7 @@ import videoHub from "../assets/portfolio/videoHub.png";
 import youtubeProject from "../assets/portfolio/youtube-clone.png";
 import musicSchoolProject from "../assets/portfolio/musicSchool.png";
 import mistryMessagesProject from "../assets/portfolio/mistryMessages.png";
+import buddyformoviesProject from '../assets/portfolio/buddyformovies.png'
 
 
 const Portfolio = () => {
@@ -22,6 +23,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: buddyformoviesProject,
+      name:'Buddy-For-Movies',
+      to:'https://buddyformovies.netlify.app',
+      toGithub: 'https://github.com/Abhisheklodha01/buddy-for-movies'
+      
+      
+    },
+    {
+      id: 3,
       src: musicSchoolProject,
       name:'Music School',
       to:'https://musicschool-xi.vercel.app',
@@ -30,7 +40,7 @@ const Portfolio = () => {
       
     },
     {
-      id: 3,
+      id: 4,
       src: mistryMessagesProject,
       name:'Mistry Messages',
       to:'https://mistrymessages-z8e9.vercel.app',
@@ -39,35 +49,35 @@ const Portfolio = () => {
       
     },
     {
-      id: 4,
+      id: 5,
       src: youtubeProject,
       name:'Youtube ui clone',
       to:'https://youtubeclonebyabhi.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/youtube-clone'
     },
     {
-      id: 5,
+      id: 6,
       src: cryptoProject,
       name:'Crypto Currency',
       to:'https://abhicryptocurrency.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/react-crypto-app'
     },
     {
-      id: 6,
+      id: 7,
       src: usabilityHub,
       name:'clone of usaabilityHub',
       to:'https://usabilityhubclonebyabhi.netlify.app',
       toGithub:'#'
     },
     {
-      id: 7,
+      id: 8,
       src: videoHub,
       name:'Video Hub',
       to:'https://abhilodha01videohub.netlify.app',
       toGithub:'https://github.com/Abhisheklodha01/react-video-hub'
     },
     {
-      id: 8,
+      id: 9,
       src: hookProject,
       name:'React Project',
       to:'https://abhisheklodha01.netlify.app',
